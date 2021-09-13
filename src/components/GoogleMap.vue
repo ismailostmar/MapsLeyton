@@ -18,12 +18,12 @@
           ref="mapRef"
           :options="{
            zoomControl: true,
-           mapTypeControl: false,
-           scaleControl: false,
+           mapTypeControl: true,
+           scaleControl: true,
            streetViewControl: true,
-           rotateControl: false,
+           rotateControl: true,
            fullscreenControl: true,
-           disableDefaultUi: false,
+           disableDefaultUi: true,
            zoomControlOptions: {position: 1},
            streetViewControlOptions: {position: 5}
           }"
@@ -109,42 +109,42 @@ export default {
           name:'Shore Street London',
           image:'../../../../../../ShoreStreet.jpg',
           location:'Bd 60, Casablanca',
-          clicked: false
+          clicked: true
         },
         {position:{lat:  33.52143,lng: -7.64331},
           name:'Casablanca Shore',
           image:'../../../../../../CasaShore.jpg',
           location:'Lotissement Soufiane , Lot.N°135 Sidi Maarouf, Casablanca 20100',
-          clicked: false
+          clicked: true
         },
         {position:{lat: 33.52138,lng:-7.64382},
           name:'Le Miams',
           image:'../../../../../../LeMiams.jpg',
           location:'Lotissement Soufiane Chaimaae N°128 Proche de Casanearshore porte Sud، Casablanca',
-          clicked: false
+          clicked: true
         },
         {position:{lat: 33.52642,lng:-7.64184},
           name:'Boca Food Restaurants',
           image:'../../../../../../BocaFood.jpg',
           location:'Nearshore Park ,Casablanca , Maroc , ',
-          clicked: false
+          clicked: true
         },
         {position:{lat: 33.54034,lng: -7.64524},
           name:'Ligui Sidi Maarouf',
           image:'../../../../../../LiguiSidiMaarouf.JPG',
           location:'40, 4 Lotissement Mandarona، Casablanca 20250',
-          clicked: false
+          clicked: true
         },
         {position:{lat: 33.53585,lng: -7.64079},
           name:'Pasta Oro',
           image:'../../../../../../Pasta Oro.JPG',
           location:'28 Lotissement La Colline II Sidi Maarouf، Casablanca',
-          clicked: false
+          clicked: true
         },
       ],
       markerOptions: {
         url: markers,
-        scaledSize: {width: 45, height: 45, f: 'px', b: 'px'},
+        scaledSize: {width: 50, height: 50, f: 'px', b: 'px'},
       },
       markerClicked: {
         url: markers,
