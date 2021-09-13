@@ -53,13 +53,13 @@
       </div>
       <div class="col pr-0 pl-0 main">
         <div class="container mt-4">
-          <div class="hov_none shadow-none m-t-35 card">
+          <!-- <div class="hov_none shadow-none m-t-35 card">
               <div class="row">
                 <div class="mb-2 col-lg-4 col-md-6">
                   <h4 class=" fs-14"><i class=" fal fa-utensils mr-2 fs-16"></i>Retaurant:<span class=" font-weight-normal ml-1 text-secondary">{{distance_from.restaurant}} Km</span></h4>
                 </div>
               </div>
-          </div>
+          </div> -->
 
           <form class="mt-4">
             <div class="form-group">
@@ -85,16 +85,13 @@
 </template>
 
 <script>
-import {gmapApi} from 'vue2-google-maps'
+import {gmapApi , markers} from 'vue2-google-maps'
 import Card from './Card.vue'
-
-const mapMarker = require('../assets/marker.png');
-const mapMarkerClicked = require('../assets/marker-clicked.png');
 
 export default {
   data() {
     return {
-      center: { lat: -8.381357822670871, lng: 115.13967209436002 },
+      center: { lat: 33.589886, lng: -7.603869 },
       searchLoading: false,
       afterLoading: false,
       circle_markers: [],
@@ -108,43 +105,37 @@ export default {
         restaurant: null,
       },
       markers: [
-        {position: {lat: -8.340539,lng: 115.091948},
-          price:'$200',
-          name:'Bali Property for Sale – Chill House Hipster Retreat',
+        {position: {lat: 33.52236,lng:-7.64304},
+          name:'Shore Street London',
           image:'property1.jpg',
           location:'Canggu, Pererenan',
           clicked: false
         },
-        {position:{lat: -8.267559,lng: 114.524339},
-          price:'$1800',
+        {position:{lat: 33.52143,lng: -7.64552},
           name:'Flawless Uluwatu Villa Zsa Zsa Finally for Sale',
           image:'property2.jpg',
           location:'Canggu, Tabanan, Tanah Lot',
           clicked: false
         },
-        {position:{lat: -8.506854,lng: 115.262482},
-          price:'$1300',
+        {position:{lat: 33.52138,lng:-7.64382},
           name:'High Ranking Boutique Resort for Sale in Sanur',
           image:'property3.jpg',
           location:'Bukit, Ungasan',
           clicked: false
         },
-        {position:{lat: -8.438413,lng: 115.496922},
-          price:'$3900',
+        {position:{lat: 33.52642,lng:-7.64184},
           name:'Modern Bali Villa for Rent in Seminyak',
           image:'property4.jpg',
           location:'Ubud, Tegallalang',
           clicked: false
         },
-        {position:{lat: -8.811012,lng: 115.173601},
-          price:'$2200',
+        {position:{lat: 33.54034,lng: -7.64524},
           name:'Chic Serenity in Beach Lovers Paradise – Sanur.',
           image:'property5.jpg',
           location:'Canggu, Berawa',
           clicked: false
         },
-        {position:{lat: -8.582952,lng: 115.085652},
-          price:'$550',
+        {position:{lat: 33.53585,lng: -7.64079},
           name:'Breathtaking Exotic Sanur Residence',
           image:'property6.jpg',
           location:'Canggu, Mengwi, Tumbak',
@@ -152,11 +143,11 @@ export default {
         },
       ],
       markerOptions: {
-        url: mapMarker,
+        url: markers,
         scaledSize: {width: 45, height: 45, f: 'px', b: 'px'},
       },
       markerClicked: {
-        url: mapMarkerClicked,
+        url: markers,
         scaledSize: {width: 50, height: 50, f: 'px', b: 'px'},
       },
 
