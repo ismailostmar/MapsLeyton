@@ -107,37 +107,37 @@ export default {
       markers: [
         {position: {lat: 33.52236,lng:-7.64304},
           name:'Shore Street London',
-          image:'property1.jpg',
+          image:'../../../../../../ShoreStreet.jpg',
           location:'Bd 60, Casablanca',
           clicked: false
         },
         {position:{lat:  33.52143,lng: -7.64331},
           name:'Casablanca Shore',
-          image:'property2.jpg',
+          image:'../../../../../../CasaShore.jpg',
           location:'Lotissement Soufiane , Lot.N°135 Sidi Maarouf, Casablanca 20100',
           clicked: false
         },
         {position:{lat: 33.52138,lng:-7.64382},
           name:'Le Miams',
-          image:'property3.jpg',
+          image:'../../../../../../LeMiams.jpg',
           location:'Lotissement Soufiane Chaimaae N°128 Proche de Casanearshore porte Sud، Casablanca',
           clicked: false
         },
         {position:{lat: 33.52642,lng:-7.64184},
           name:'Boca Food Restaurants',
-          image:'property4.jpg',
+          image:'../../../../../../BocaFood.jpg',
           location:'Nearshore Park ,Casablanca , Maroc , ',
           clicked: false
         },
         {position:{lat: 33.54034,lng: -7.64524},
           name:'Ligui Sidi Maarouf',
-          image:'property5.jpg',
+          image:'../../../../../../LiguiSidiMaarouf.JPG',
           location:'40, 4 Lotissement Mandarona، Casablanca 20250',
           clicked: false
         },
         {position:{lat: 33.53585,lng: -7.64079},
           name:'Pasta Oro',
-          image:'property6.jpg',
+          image:'../../../../../../Pasta Oro.JPG',
           location:'28 Lotissement La Colline II Sidi Maarouf، Casablanca',
           clicked: false
         },
@@ -277,9 +277,6 @@ export default {
         </div>
         <div class="title mt-2 text-truncate">
           ${marker.name}
-        </div>
-        <div class="price mt-1 mb-2">
-          ${marker.price}
         </div>
       </div>`
 
