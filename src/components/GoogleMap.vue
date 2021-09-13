@@ -61,12 +61,12 @@
               </div>
           </div> -->
 
-          <form class="mt-4">
-            <div class="form-group">
-              <label for="inputAddress" class="map-search-title">Location</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Enter Address, City or State">
+           <form class="mt-4">
+           <div class="form-group">
+              <!-- <label for="inputAddress" class="map-search-title">Location</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Enter Address, City or State"> -->
             </div>
-          </form>
+          </form> 
         </div>
         <transition-group class="row p-3" tag="div"
           enter-active-class="animate__animated animate__fadeIn animate__faster"
