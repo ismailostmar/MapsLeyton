@@ -287,7 +287,7 @@ export default {
       if (this.currentMidx == idx) {
         this.infoWinOpen = !this.infoWinOpen;
       }
-      //if different marker set infowindow to open and reset current marker index
+      //if different marker set infowindow to open and rest current marker index
       else {
         marker.clicked = true
         this.infoWinOpen = true;
