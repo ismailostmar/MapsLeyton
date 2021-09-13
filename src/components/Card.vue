@@ -59,8 +59,8 @@ export default{
     float: left;
     width: 100%;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 2;
+    left: 1;
     padding: 40px 23px 20px 23px;
     z-index: 2;
 }
