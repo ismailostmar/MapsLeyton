@@ -107,40 +107,152 @@ export default {
       markers: [
         {position: {lat: 33.52236,lng:-7.64304},
           name:'Shore Street London',
-          image:'../../../../../../ShoreStreet.jpg',
+          image:'ShoreStreet.jpg',
           location:'Bd 60, Casablanca',
           clicked: true
         },
         {position:{lat:  33.52143,lng: -7.64331},
           name:'Casablanca Shore',
-          image:'../../../../../../CasaShore.jpg',
+          image:'CasaShore.jpg',
           location:'Lotissement Soufiane , Lot.N°135 Sidi Maarouf, Casablanca 20100',
           clicked: true
         },
         {position:{lat: 33.52138,lng:-7.64382},
           name:'Le Miams',
-          image:'../../../../../../LeMiams.jpg',
+          image:'LeMiams.jpg',
           location:'Lotissement Soufiane Chaimaae N°128 Proche de Casanearshore porte Sud، Casablanca',
           clicked: true
         },
         {position:{lat: 33.52642,lng:-7.64184},
           name:'Boca Food Restaurants',
-          image:'../../../../../../BocaFood.jpg',
-          location:'Nearshore Park ,Casablanca , Maroc , ',
+          image:'BocaFood.jpg',
+          location:'Nearshore Park ,Casablanca , Maroc ',
           clicked: true
         },
         {position:{lat: 33.54034,lng: -7.64524},
           name:'Ligui Sidi Maarouf',
-          image:'../../../../../../LiguiSidiMaarouf.JPG',
+          image:'LiguiSidiMaarouf.JPG',
           location:'40, 4 Lotissement Mandarona، Casablanca 20250',
           clicked: true
         },
         {position:{lat: 33.53585,lng: -7.64079},
           name:'Pasta Oro',
-          image:'../../../../../../Pasta Oro.JPG',
+          image:'Pasta Oro.JPG',
           location:'28 Lotissement La Colline II Sidi Maarouf، Casablanca',
           clicked: true
         },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat: 33.58763 ,lng: -7.64225}, 
+          name:'Il Ferrarino',
+          image:'IlFerranio.jpg',
+          location:'Angle Boulevard Massira al Khadra et, Rue du 4 Août, Casablanca 20100',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat: 33.54858,lng:  -7.63708}, 
+          name:'OLEA',
+          image:'OLEA.JPG',
+          location:'264 Rte de Oasis, Casablanca 20000',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+         {position:{lat: 33.53260,lng: -7.64814},
+          name:'Machaway Restaurant',
+          image:'MachawayRestau.jpg',
+          location:'Rue Al Moustakbal، Casablanca',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+         {position:{lat: 33.53779 ,lng: -7.64401}, 
+          name:'One Way Steakhouse',
+          image:'OneWaySteackHouse.jpg',
+          location:'Av. Abou Bakr el Kadiri, Casablanca',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat: 33.52868,lng: -7.64051},
+          name:'Ipopito',
+          image:'Ipopito.JPG',
+          location:'Casablanca Nearshore, Casablanca',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat: 33.52154,lng: -7.64494},
+          name:'Brothers food',
+          image:'BrotherFood.jpg',
+          location:'ETAGE MAGASIN APPARTEMENT N°1 124 LOTISSEMENT SOUFIANE, Casablanca 20000',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat: 33.52049,lng:-7.64892},
+          name:'Sur le Toit',
+          image:'SurLeToit.png',
+          location:'Lot. Lina - 261, route 1029، Casablanca',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat: 33.52049,lng: -7.64892},
+          name:'Gastro Food',
+          image:'GastroFood.jpg',
+          location:'Casablanca 20201 Sidi Maarouf',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+         {position:{lat: 33.55522,lng: -7.62381},
+          name:'LES 7 MERS',
+          image:'Pasta Oro.JPG',
+          location:'6 Rte de Taddart, Casablanca 20000',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat: 33.58308,lng: -7.64137},
+          name:'La Closerie',
+          image:'LaCloserie.jpg',
+          location:'185 Bd Bir Anzarane, Casablanca 20000',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat: 33.58748,lng: -7.61285},
+          name:'Don Camillo',
+          image:'DonCamillo.JPG',
+          location:'8 Rue Abou Raqraq, Casablanca 20250',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat: 33.59050,lng: -7.63813},
+          name:'Organic Kitchen',
+          image:'OrganicKitchen.jpg',
+          location:'6-8 Rue Ahmed El Mokri, Casablanca 20000',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+        
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+
       ],
       markerOptions: {
         url: markers,
