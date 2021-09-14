@@ -105,6 +105,9 @@ export default {
         restaurant: null,
       },
       markers: [
+
+        /* Les Restaurants Connues à Casablanca */
+
         {position: {lat: 33.52236,lng:-7.64304},
           name:'Shore Street London',
           image:'ShoreStreet.jpg',
@@ -243,7 +246,7 @@ export default {
         },
 
         /////////////////////////////////////////////////////////////////////////
-        
+
          {position:{lat:  33.60818,lng:  -7.65547},
           name:'Le Cabestan',
           image:'LeCabestan.JPG',
@@ -252,6 +255,227 @@ export default {
         },
 
 
+          /* Les Restaurants Connues à Rabat */
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.70113,lng:  -7.36139},
+          name:'Zohras Restaurant',
+          image:'Zohras.JPG',
+          location:'Bd Mohamed VI, Mohammédia',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.70151,lng:  -7.36161},
+          name:'Restaurant O"COIN',
+          image:'Ocoin.JPG',
+          location:'Ocoin café restaurant, bd mohammed vi riad essalam d 29، Mohammedia',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.70231,lng:  -7.37534},
+          name:'l"Olivier',
+          image:'Lolivier.JPG',
+          location:'Résidence Californie II, Bd Hassan II, Mohammédia',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.70203,lng:  -7.37601},
+          name:'Big Bamboo Gourmet-Pub',
+          image:'BigBombo.JPG',
+          location:'Bd Hassan II, Mohammédia',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.70358,lng:  -7.38663},
+          name:'Chez Madame Andrée',
+          image:'Andree.JPG',
+          location:'Bd Moulay Youssef, Mohammédia 28830',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.69674,lng:  -7.39102},
+          name:'Marius Mohammedia',
+          image:'MariusMedia.JPG',
+          location:'Rue Bourgogne, Mohammédia',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+
+
+        /////////////////////////////////////////////////////////////////////////
+
+         {position:{lat:  33.60818,lng:  -7.65547},
+          name:'Le Cabestan',
+          image:'LeCabestan.JPG',
+          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          clicked: true
+        },
+
+
+
+
+          
 
       ],
       markerOptions: {
