@@ -28,7 +28,7 @@
            streetViewControlOptions: {position: 5}
           }"
           :center="center"
-          :zoom="10"
+          :zoom="7.2"
           map-type-id="roadmap"
           style="width:100%;height: 100vh;"
           @center_changed="updateCenter"
@@ -95,7 +95,7 @@ export default {
       searchLoading: false,
       afterLoading: false,
       circle_markers: [],
-      current_position: {lat: null,lng: null},
+      current_position: {lat:  33.52516,lng: -7.64115}, 
       current_zoom: null,
       radius: null,
       current_distance: { 
@@ -269,7 +269,7 @@ export default {
         /////////////////////////////////////////////////////////////////////////
 
          {position:{lat:  33.70151,lng:  -7.36161},
-          name:'Restaurant O"COIN',
+          name:'Restaurant O\'COIN',
           image:'Ocoin.JPG',
           location:'Ocoin café restaurant, bd mohammed vi riad essalam d 29، Mohammedia',
           clicked: true
@@ -308,175 +308,132 @@ export default {
         },
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
-          clicked: true
-        },
-        /////////////////////////////////////////////////////////////////////////
-
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  34.02354,lng:  -6.83881},
+          name:'Restaurant de la Libération',
+          image:'Liberation.JPG',
+          location:'256 Av. Mohammed V, Rabat 10030',
           clicked: true
         },
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  34.01599,lng:  -6.83907},
+          name:'Cosmopolitan',
+          image:'cosmo.JPG',
+          location:'Av. Ibn Toumart, Rabat 10000',
           clicked: true
         },
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  34.00069,lng:  -6.84608},
+          name:'Le Georges',
+          image:'LeGorges.JPG',
+          location:'5 Rue Oued Baht, Rabat',
           clicked: true
         },
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  34.01718,lng:  -6.83195},
+          name:'Ty Potes',
+          image:'Typotes.JPG',
+          location:'11 Rue Ghafsa, Rabat 10000',
           clicked: true
         },
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+        {position:{lat:  34.02893,lng:  -6.83235},
+          name:'Le Dhow Bar Lounge',
+          image:'dhow.jpg',
+          location:'Quai de Bouregreg، Av. Al Marsa, Rabat 10000',
           clicked: true
         },
 
-
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  33.98668,lng:  -6.82831},
+          name:'Le Picolo\'s',
+          image:'picolo.JPG',
+          location:'Av. Mohamed VI, Rabat 10170',
           clicked: true
         },
 
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  33.98987,lng:  -6.83767},
+          name:'Golden Fish',
+          image:'goldenfish.JPG',
+          location:'BP 450 Souissi, Rabat 10000',
           clicked: true
         },
 
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  34.02183,lng:  -6.84195},
+          name:'Dar Naji Rabat Hassan',
+          image:'darnaji.jpg',
+          location:'Av. Jazirat Al Arabe, Rabat',
           clicked: true
         },
-
 
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  34.01564,lng:  -6.82159},
+          name:'Il Giardino',
+          image:'giardino.JPG',
+          location:'2 bis e, Av. Ahmed Lyazidi, Rabat',
           clicked: true
         },
-
-
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  33.99648,lng:  -6.84563},
+          name:'Limonadier',
+          image:'limonadier.JPG',
+          location:'16 Rue Jabal Oukaïmeden, Rabat',
           clicked: true
         },
-
-
-
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  33.99494,lng:  -6.84545},
+          name:'Two Brothers',
+          image:'towbrothers.JPG',
+          location:'44 Av. des Nations Unies, Rabat 10080',
           clicked: true
         },
-
-
-
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
+         {position:{lat:  33.99650,lng:  -6.84818},
+          name:'L\'entrecôte',
+          image:'entrecote.JPG',
           location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
           clicked: true
         },
-
-
-
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  33.99311,lng:  -6.84786},
+          name:'La Bodega Toro Loco',
+          image:'labodega.JPG',
+          location:'30 Av. Michlifen, Rabat',
           clicked: true
         },
-
-
-
-
 
         /////////////////////////////////////////////////////////////////////////
 
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+         {position:{lat:  33.99942,lng:  -6.84451},
+          name:'Ilham Chef',
+          image:'ilhamchef.JPG',
+          location:'52 Av. Omar Ibn Al Khattab, Rabat',
           clicked: true
         },
-
-
-
-
-        /////////////////////////////////////////////////////////////////////////
-
-         {position:{lat:  33.60818,lng:  -7.65547},
-          name:'Le Cabestan',
-          image:'LeCabestan.JPG',
-          location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
-          clicked: true
-        },
-
-
-
-
-          
-
       ],
       markerOptions: {
         url: markers,
