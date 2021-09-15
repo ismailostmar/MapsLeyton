@@ -255,7 +255,7 @@ export default {
         },
 
 
-          /* Les Restaurants Connues à Rabat */
+          /* Les Restaurants Connues à Mohamedia */
 
 
         /////////////////////////////////////////////////////////////////////////
@@ -307,6 +307,9 @@ export default {
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
+
+
+        /* Les Restaurants les plus connues à Rabat */
 
          {position:{lat:  34.02354,lng:  -6.83881},
           name:'Restaurant de la Libération',
