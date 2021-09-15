@@ -437,10 +437,19 @@ export default {
           location:'52 Av. Omar Ibn Al Khattab, Rabat',
           clicked: true
         },
+
+        /////////////////////////////////////////////////////////////////////////
+
+        {position:{lat:  34.01864,lng: -6.83599},
+          name:'Casa José Rabat',
+          image:'casajosé.JPG',
+          location:'279 Av. Mohammed V, Rabat',
+          clicked: true
+        },
       ],
       markerOptions: {
         url: markers,
-        scaledSize: {width: 50, height: 50, f: 'px', b: 'px'},
+        scaledSize: {width: 48, height: 48, f: 'px', b: 'px'},
       },
       markerClicked: {
         url: markers,
@@ -524,6 +533,7 @@ export default {
             this.circle_markers = []
             return false
           }
+          if (this.current_zoom == 7) this.radius = 40 * 1000 // 40 km
           if (this.current_zoom == 8) this.radius = 60 * 1000 // 60 km
           if (this.current_zoom == 9) this.radius = 50 * 1000 // 50 km
           if (this.current_zoom == 10) this.radius = 30 * 1000 // 30 km
