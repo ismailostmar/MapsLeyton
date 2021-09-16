@@ -1,4 +1,9 @@
 # map-vue
+### Made it by : Exact
+
+```
+ISMAIL DEVGEEK
+```
 
 ## Project setup
 ```

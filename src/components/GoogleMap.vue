@@ -98,37 +98,42 @@ export default {
           name:'Shore Street London',
           image:'ShoreStreet.jpg',
           location:'Bd 60, Casablanca',
-          genre : 'café',
+          genre : 'Coffee Food',
           clicked: true
         },
         {position:{lat:  33.52143,lng: -7.64331},
           name:'Casablanca Shore',
           image:'CasaShore.jpg',
           location:'Lotissement Soufiane , Lot.N°135 Sidi Maarouf, Casablanca 20100',
+          genre : 'Coffee Restaurant',
           clicked: true
         },
         {position:{lat: 33.52138,lng:-7.64382},
           name:'Le Miams',
           image:'LeMiams.jpg',
           location:'Lotissement Soufiane Chaimaae N°128 Proche de Casanearshore porte Sud، Casablanca',
+          genre : 'Sandwich & Pizza',
           clicked: true
         },
         {position:{lat: 33.52642,lng:-7.64184},
           name:'Boca Food Restaurants',
           image:'BocaFood.jpg',
           location:'Nearshore Park ,Casablanca , Maroc ',
+          genre : 'Fast Restaurants',
           clicked: true
         },
         {position:{lat: 33.54034,lng: -7.64524},
           name:'Ligui Sidi Maarouf',
           image:'LiguiSidiMaarouf.JPG',
           location:'40, 4 Lotissement Mandarona، Casablanca 20250',
+          genre : 'Moroccan Artisanal',
           clicked: true
         },
         {position:{lat: 33.53585,lng: -7.64079},
           name:'Pasta Oro',
           image:'Pasta Oro.JPG',
           location:'28 Lotissement La Colline II Sidi Maarouf، Casablanca',
+          genre : 'English Wine',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -137,6 +142,7 @@ export default {
           name:'Il Ferrarino',
           image:'IlFerranio.jpg',
           location:'Angle Boulevard Massira al Khadra et, Rue du 4 Août, Casablanca 20100',
+          genre : 'Spanian',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -145,6 +151,7 @@ export default {
           name:'OLEA',
           image:'OLEA.JPG',
           location:'264 Rte de Oasis, Casablanca 20000',
+          genre : 'Lounge',
           clicked: true
         },
 
@@ -153,6 +160,7 @@ export default {
           name:'Machaway Restaurant',
           image:'MachawayRestau.jpg',
           location:'Rue Al Moustakbal، Casablanca',
+          genre : 'Steack',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -160,6 +168,7 @@ export default {
           name:'One Way Steakhouse',
           image:'OneWaySteackHouse.jpg',
           location:'Av. Abou Bakr el Kadiri, Casablanca',
+          genre : 'Steack Meat',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -168,6 +177,7 @@ export default {
           name:'Ipopito',
           image:'Ipopito.JPG',
           location:'Casablanca Nearshore, Casablanca',
+          genre : 'Fast Food',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -176,6 +186,7 @@ export default {
           name:'Brothers food',
           image:'BrotherFood.jpg',
           location:'ETAGE MAGASIN APPARTEMENT N°1 124 LOTISSEMENT SOUFIANE, Casablanca 20000',
+          genre : 'Restaurant',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -184,6 +195,7 @@ export default {
           name:'Sur le Toit',
           image:'SurLeToit.png',
           location:'Lot. Lina - 261, route 1029، Casablanca',
+          genre : 'Coffee',
           clicked: true
         },
 
@@ -193,6 +205,7 @@ export default {
           name:'Gastro Food',
           image:'GastroFood.jpg',
           location:'Casablanca 20201 Sidi Maarouf',
+          genre : 'Fast Food',
           clicked: true
         },
 
@@ -201,6 +214,7 @@ export default {
           name:'LES 7 MERS',
           image:'Pasta Oro.JPG',
           location:'6 Rte de Taddart, Casablanca 20000',
+          genre : 'Poisson & Pizza',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -209,6 +223,7 @@ export default {
           name:'La Closerie',
           image:'LaCloserie.jpg',
           location:'185 Bd Bir Anzarane, Casablanca 20000',
+          genre : 'coffee & Restaurant',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -217,6 +232,7 @@ export default {
           name:'Don Camillo',
           image:'DonCamillo.JPG',
           location:'8 Rue Abou Raqraq, Casablanca 20250',
+          genre : 'Portugal',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -225,6 +241,7 @@ export default {
           name:'Organic Kitchen',
           image:'OrganicKitchen.jpg',
           location:'6-8 Rue Ahmed El Mokri, Casablanca 20000',
+          genre : 'Chiken & Fish',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -233,6 +250,7 @@ export default {
           name:'Le Cabestan',
           image:'LeCabestan.JPG',
           location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          genre : 'Lounge & Bar',
           clicked: true
         },
           /* Les Restaurants Connues à Mohamedia */
@@ -243,6 +261,7 @@ export default {
           name:'Zohras Restaurant',
           image:'Zohras.JPG',
           location:'Bd Mohamed VI, Mohammédia',
+          genre : 'restaurant',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -251,6 +270,7 @@ export default {
           name:'Restaurant O\'COIN',
           image:'Ocoin.JPG',
           location:'Ocoin café restaurant, bd mohammed vi riad essalam d 29، Mohammedia',
+          genre : 'Grillade',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -259,6 +279,7 @@ export default {
           name:'l"Olivier',
           image:'Lolivier.JPG',
           location:'Résidence Californie II, Bd Hassan II, Mohammédia',
+          genre : 'Poisson',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -267,6 +288,7 @@ export default {
           name:'Big Bamboo Gourmet-Pub',
           image:'BigBombo.JPG',
           location:'Bd Hassan II, Mohammédia',
+          genre : 'coffee',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -275,6 +297,7 @@ export default {
           name:'Chez Madame Andrée',
           image:'Andree.JPG',
           location:'Bd Moulay Youssef, Mohammédia 28830',
+          genre : 'Made by Hands',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -283,6 +306,7 @@ export default {
           name:'Marius Mohammedia',
           image:'MariusMedia.JPG',
           location:'Rue Bourgogne, Mohammédia',
+          genre : 'Fish and Barbecue',
           clicked: true
         },
         /////////////////////////////////////////////////////////////////////////
@@ -294,6 +318,7 @@ export default {
           name:'Restaurant de la Libération',
           image:'Liberation.JPG',
           location:'256 Av. Mohammed V, Rabat 10030',
+          genre : 'Thé',
           clicked: true
         },
 
@@ -303,6 +328,7 @@ export default {
           name:'Cosmopolitan',
           image:'cosmo.JPG',
           location:'Av. Ibn Toumart, Rabat 10000',
+          genre : 'Pizza',
           clicked: true
         },
 
@@ -312,6 +338,7 @@ export default {
           name:'Le Georges',
           image:'LeGorges.JPG',
           location:'5 Rue Oued Baht, Rabat',
+          genre : 'Restaurant Tropical',
           clicked: true
         },
 
@@ -321,6 +348,7 @@ export default {
           name:'Ty Potes',
           image:'Typotes.JPG',
           location:'11 Rue Ghafsa, Rabat 10000',
+          genre : 'Food Restanrant',
           clicked: true
         },
 
@@ -330,6 +358,7 @@ export default {
           name:'Le Dhow Bar Lounge',
           image:'dhow.jpg',
           location:'Quai de Bouregreg، Av. Al Marsa, Rabat 10000',
+          genre : 'Lounge & Bar',
           clicked: true
         },
 
@@ -339,6 +368,7 @@ export default {
           name:'Le Picolo\'s',
           image:'picolo.JPG',
           location:'Av. Mohamed VI, Rabat 10170',
+          genre : 'Spainian',
           clicked: true
         },
 
@@ -349,6 +379,7 @@ export default {
           name:'Golden Fish',
           image:'goldenfish.JPG',
           location:'BP 450 Souissi, Rabat 10000',
+          genre : 'Fish',
           clicked: true
         },
 
@@ -359,6 +390,7 @@ export default {
           name:'Dar Naji Rabat Hassan',
           image:'darnaji.jpg',
           location:'Av. Jazirat Al Arabe, Rabat',
+          genre : 'Moroccan Restaurant',
           clicked: true
         },
 
@@ -369,6 +401,7 @@ export default {
           name:'Il Giardino',
           image:'giardino.JPG',
           location:'2 bis e, Av. Ahmed Lyazidi, Rabat',
+          genre : 'Italien',
           clicked: true
         },
 
@@ -378,6 +411,7 @@ export default {
           name:'Limonadier',
           image:'limonadier.JPG',
           location:'16 Rue Jabal Oukaïmeden, Rabat',
+          genre : 'Restaurant',
           clicked: true
         },
 
@@ -387,6 +421,7 @@ export default {
           name:'Two Brothers',
           image:'towbrothers.JPG',
           location:'44 Av. des Nations Unies, Rabat 10080',
+          genre : 'Fast Food',
           clicked: true
         },
 
@@ -396,6 +431,7 @@ export default {
           name:'L\'entrecôte',
           image:'entrecote.JPG',
           location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
+          genre : 'Espagnol',
           clicked: true
         },
 
@@ -405,6 +441,7 @@ export default {
           name:'La Bodega Toro Loco',
           image:'labodega.JPG',
           location:'30 Av. Michlifen, Rabat',
+          genre : 'Italien',
           clicked: true
         },
 
@@ -414,6 +451,7 @@ export default {
           name:'Ilham Chef',
           image:'ilhamchef.JPG',
           location:'52 Av. Omar Ibn Al Khattab, Rabat',
+          genre : 'Grillade',
           clicked: true
         },
 
@@ -423,6 +461,7 @@ export default {
           name:'Casa José Rabat',
           image:'casajosé.JPG',
           location:'279 Av. Mohammed V, Rabat',
+          genre : 'Restaurant',
           clicked: true
         },
       ],
