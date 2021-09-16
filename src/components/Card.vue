@@ -18,9 +18,9 @@
             {{ name }}
           </div>
           <p class="fs-12 text-secondary card-text text-truncate">
-            <i class="jsx-1104155267 fal fa-map-marker-alt"></i> {{ location }}
+            <i class="jsx-1104155267 fal fa-map-marker-alt"></i> Localisation : {{ location }}
           </p>
-          <p class="fs-12 text-secondary card-text text-truncate">
+          <p class="fs-12 text-secondary card-text text-truncate"><i class="fas fa-utensils"></i>
            Genre : {{ genre }}
           </p>
         </div>
