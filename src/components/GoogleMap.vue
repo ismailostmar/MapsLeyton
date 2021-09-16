@@ -4,14 +4,14 @@
       <div class="col map-sticky">
         <span class="position-absolute text-searching badge badge-light text-center" v-if="searchLoading">
           <div class="spinner-border spinner-border-sm mr-2" role="status">
-            <span class="sr-only">Loading...</span>
+            <!-- <span class="sr-only">Chargement...</span> -->
           </div>
-          <span>Searching...</span>
+          <span>Recherche...</span>
         </span>
         <transition leave-active-class="animate__animated animate__fadeOut animate__faster">
         <span class="position-absolute text-searching badge badge-light text-center" 
           v-if="afterLoading && !searchLoading">
-          <span>{{circle_markers.length}} of {{markers.length}} results</span>
+          <span>{{circle_markers.length}} sur {{markers.length}} les résultats</span>
         </span>
         </transition>
         <Gmap-map
@@ -52,30 +52,16 @@
         </Gmap-map>
       </div>
       <div class="col pr-0 pl-0 main">
-        <div class="container mt-4">
-          <!-- <div class="hov_none shadow-none m-t-35 card">
-              <div class="row">
-                <div class="mb-2 col-lg-4 col-md-6">
-                  <h4 class=" fs-14"><i class=" fal fa-utensils mr-2 fs-16"></i>Retaurant:<span class=" font-weight-normal ml-1 text-secondary">{{distance_from.restaurant}} Km</span></h4>
-                </div>
-              </div>
-          </div> -->
-
-           <form class="mt-4">
-           <div class="form-group">
-              <!-- <label for="inputAddress" class="map-search-title">Location</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Enter Address, City or State"> -->
-            </div>
-          </form> 
-        </div>
         <transition-group class="row p-3" tag="div"
           enter-active-class="animate__animated animate__fadeIn animate__faster"
           leave-active-class="animate__animated animate__fadeOut animate__faster">
+          <!-- Mouse Over : c'est-a-dire que si je fait le hover-en-avant sur ma la localisation ; elle s'affiche correctement sur la carte  -->
+          <!-- Mouse Out : c'est-a-dire que si je fait le hover-en-arriere sur la localisation ; elle se disparaitre sur la carte  -->
            <div class="col-12" v-for="(m,index) in circle_markers" :key="m.name" 
             @mouseover="toggleInfoWindow(m,index)"
             @mouseout="infoWinOpen = !infoWinOpen">
 
-            <app-card :name="m.name" :image="m.image" :location="m.location"></app-card>
+            <app-card :name="m.name" :image="m.image" :location="m.location" :genre="m.genre"></app-card>
            </div>
         </transition-group>
       </div>
@@ -112,6 +98,7 @@ export default {
           name:'Shore Street London',
           image:'ShoreStreet.jpg',
           location:'Bd 60, Casablanca',
+          genre : 'café',
           clicked: true
         },
         {position:{lat:  33.52143,lng: -7.64331},
@@ -183,7 +170,6 @@ export default {
           location:'Casablanca Nearshore, Casablanca',
           clicked: true
         },
-
         /////////////////////////////////////////////////////////////////////////
 
          {position:{lat: 33.52154,lng: -7.64494},
@@ -192,7 +178,6 @@ export default {
           location:'ETAGE MAGASIN APPARTEMENT N°1 124 LOTISSEMENT SOUFIANE, Casablanca 20000',
           clicked: true
         },
-
         /////////////////////////////////////////////////////////////////////////
 
          {position:{lat: 33.52049,lng:-7.64892},
@@ -226,7 +211,6 @@ export default {
           location:'185 Bd Bir Anzarane, Casablanca 20000',
           clicked: true
         },
-
         /////////////////////////////////////////////////////////////////////////
 
          {position:{lat: 33.58748,lng: -7.61285},
@@ -235,7 +219,6 @@ export default {
           location:'8 Rue Abou Raqraq, Casablanca 20250',
           clicked: true
         },
-
         /////////////////////////////////////////////////////////////////////////
 
          {position:{lat: 33.59050,lng: -7.63813},
@@ -244,7 +227,6 @@ export default {
           location:'6-8 Rue Ahmed El Mokri, Casablanca 20000',
           clicked: true
         },
-
         /////////////////////////////////////////////////////////////////////////
 
          {position:{lat:  33.60818,lng:  -7.65547},
@@ -253,10 +235,7 @@ export default {
           location:'Phare El hank، 90 Bd de la Corniche, Casablanca 20000',
           clicked: true
         },
-
-
           /* Les Restaurants Connues à Mohamedia */
-
 
         /////////////////////////////////////////////////////////////////////////
 
@@ -476,19 +455,19 @@ export default {
   },
 
   methods:{
-    rad(x){
-      return x * Math.PI / 180
-    },
-    getDistance(p1,p2){
+    // rad(x){
+    //   return x * Math.PI / 180
+    // },
+    getDistance(){
       /* Haversine formula */
-      let R = 6378137 // Earth’s mean radius in meter
-      let dLat = this.rad(p2.lat() - p1.lat())
-      let dLong = this.rad(p2.lng() - p1.lng())
-      let a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.cos(this.rad(p1.lat())) * Math.cos(this.rad(p2.lat())) *
-        Math.sin(dLong / 2) * Math.sin(dLong / 2)
-      let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
-      let d = R * c
-      return d // returns the distance in meter
+      // let R = 6378137 // Earth’s mean radius in meter
+      // let dLat = this.rad(p2.lat() - p1.lat())
+      // let dLong = this.rad(p2.lng() - p1.lng())
+      // let a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.cos(this.rad(p1.lat())) * Math.cos(this.rad(p2.lat())) *
+      //   Math.sin(dLong / 2) * Math.sin(dLong / 2)
+      // let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+      // let d = R * c
+      // return d // returns the distance in meter
     },
     callbackRestaurant(results,status){
       if (status == this.google.maps.places.PlacesServiceStatus.OK) {
@@ -499,7 +478,7 @@ export default {
     },
     getDistanceTo(){
       let current_cursor = new this.google.maps.LatLng(this.current_position.lat,this.current_position.lng)
-      // object map
+      // The Map Object
       let map = new this.google.maps.places.PlacesService(this.$refs['mapRef'].$mapObject)
       // search nearby restaurant from current cursor
       map.nearbySearch({
@@ -533,11 +512,11 @@ export default {
             this.circle_markers = []
             return false
           }
-          if (this.current_zoom == 7) this.radius = 40 * 1000 // 40 km
-          if (this.current_zoom == 8) this.radius = 60 * 1000 // 60 km
-          if (this.current_zoom == 9) this.radius = 50 * 1000 // 50 km
-          if (this.current_zoom == 10) this.radius = 30 * 1000 // 30 km
-          if (this.current_zoom == 11) this.radius = 20 * 1000 // 20 km
+          // if (this.current_zoom == 7) this.radius = 40 * 1000 // 40 km
+          // if (this.current_zoom == 8) this.radius = 60 * 1000 // 60 km
+          // if (this.current_zoom == 9) this.radius = 50 * 1000 // 50 km
+          // if (this.current_zoom == 10) this.radius = 30 * 1000 // 30 km
+          // if (this.current_zoom == 11) this.radius = 20 * 1000 // 20 km
           if (this.current_zoom >= 12) this.radius = 10 * 1000 // 10 km
           if (this.current_zoom >= 13) this.radius = (30 * 1000) / this.current_zoom
         }
@@ -583,6 +562,9 @@ export default {
         </div>
         <div class="title mt-2 text-truncate">
           ${marker.name}
+        </div>
+        <div class="title mt-2 text-truncate">
+          ${marker.genre}
         </div>
       </div>`
 
