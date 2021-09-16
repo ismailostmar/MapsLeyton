@@ -1,5 +1,5 @@
 # map-vue
-### Made it by : Exact
+### @Copyrights to : 
 
 ```
 ISMAIL DEVGEEK
